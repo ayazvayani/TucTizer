@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>TUC</name>
+    <description>Make Your Own Tuc Tizer.</description>
+    <version>1.0.0.0</version>
+    <author>VDM</author>
+    <author-email>dev.vdm.com.pk</author-email>
+    <author-website>http://vdm.com.pk</author-website>
+    <app-id>pk.com.vdm.tuctizer</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>21600</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="McKack" id="CSS_import" version="1">CSS import</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1920</width>
+        <height>1080</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Start</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="Tizers">
+            <object-type name="ChickenSpread" sid="6863856263184807">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2302106569378609" speed="5">
+                        <frame duration="1" hotspotX="0.501211" hotspotY="0.501441" original-source="D:\TucAndroidDevelopment\Assets\Files\CSpreadTizer.png">
+                            <collision-poly>
+                                <point x="0.368039" y="0.43804" />
+                                <point x="0.498789" y="0.429395" />
+                                <point x="0.808717" y="0.227666" />
+                                <point x="0.951574" y="0.498559" />
+                                <point x="0.498789" y="0.881844" />
+                                <point x="0.285714" y="0.659942" />
+                                <point x="0.150121" y="0.498559" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Cheese" sid="570610903655767">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1294425136833284" speed="5">
+                        <frame duration="1" hotspotX="0.501211" hotspotY="0.501441" original-source="D:\TucAndroidDevelopment\Assets\Files\CheeseTizer.png">
+                            <collision-poly>
+                                <point x="0.368039" y="0.43804" />
+                                <point x="0.498789" y="0.429395" />
+                                <point x="0.808717" y="0.227666" />
+                                <point x="0.951574" y="0.498559" />
+                                <point x="0.498789" y="0.881844" />
+                                <point x="0.285714" y="0.659942" />
+                                <point x="0.150121" y="0.498559" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Salsa" sid="3200119572601649">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3111398271732779" speed="5">
+                        <frame duration="1" hotspotX="0.501211" hotspotY="0.501441" original-source="D:\TucAndroidDevelopment\Assets\Files\SalsaTizer.png">
+                            <collision-poly>
+                                <point x="0.368039" y="0.43804" />
+                                <point x="0.498789" y="0.429395" />
+                                <point x="0.808717" y="0.227666" />
+                                <point x="0.951574" y="0.498559" />
+                                <point x="0.498789" y="0.881844" />
+                                <point x="0.285714" y="0.659942" />
+                                <point x="0.150121" y="0.498559" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Honey" sid="100932589116246">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1750057953220939" speed="5">
+                        <frame duration="1" hotspotX="0.501211" hotspotY="0.501441" original-source="D:\TucAndroidDevelopment\Assets\Files\HoneyTizer.png">
+                            <collision-poly>
+                                <point x="0.368039" y="0.43804" />
+                                <point x="0.498789" y="0.429395" />
+                                <point x="0.808717" y="0.227666" />
+                                <point x="0.951574" y="0.498559" />
+                                <point x="0.498789" y="0.881844" />
+                                <point x="0.285714" y="0.659942" />
+                                <point x="0.150121" y="0.498559" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-type name="TRace" sid="3395125638492709">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\TucAndroidDevelopment\Assets\GUI\Traces\Start.jpg" />
+        </object-type>
+        <object-type name="Submit" sid="3324373550677982">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Usernamefield" sid="8116631982720313">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type global="1" name="CSSImport" sid="3413064966897566">
+            <plugin id="CSS_import" />
+        </object-type>
+        <object-type name="userdisp" sid="5922616809879089">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="BG" sid="4565129396888861">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\TucAndroidDevelopment\Assets\GUI\Traces\SimpleBG.jpg" />
+        </object-type>
+        <object-type name="Welcome" sid="6868749823117318">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Touch" sid="1173897542101324">
+            <plugin id="Touch" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Start.xml</layout>
+        <layout>Select.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Main.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="11">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+        <file name="style.css" />
+        <file name="generator_config.txt" />
+        <file name="hellogoodbye-demo.html" />
+        <file name="hellogoodbye-webfont.woff" />
+        <file name="hellogoodbye-webfont.woff2" />
+        <file name="stylesheet.css" />
+    </files-folder>
+</c2project>
